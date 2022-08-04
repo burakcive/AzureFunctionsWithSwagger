@@ -6,7 +6,8 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     context.log('get api/users endpoint is triggered');
    
     context.res = {
-        body: users
+        body: users,
+        headers: {'Content-Type': 'application/json'}
     };
 
 };
