@@ -10,13 +10,13 @@ export const users : IUser[] = [
     {
         id : 1,
         name: "burak",
-        email : "burakcive@gmail.com",
+        email : "burakcive@outlook.com",
         age : 31
     },
     {
         id : 2,
-        name: "yagmur",
-        email : "yagmurozcancive@gmail.com",
+        name: "person",
+        email : "someperson@gmail.com",
         age : 28
     }
 ]
